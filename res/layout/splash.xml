@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView android:id="@+id/logoBuggi"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:src="@drawable/buggi"/>
+    
+ <!--  <RelativeLayout android:id="@+id/radio_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@id/logoBuggi"
+    android:layout_marginTop="5dp">
+   
+    <LinearLayout android:layout_width="wrap_content"
+        android:id="@+id/radio_text"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/r_color"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+        </LinearLayout>
+        
+         <LinearLayout android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/a_color"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+        </LinearLayout>
+        
+         <LinearLayout android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/d_color"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+        </LinearLayout>
+        
+         <LinearLayout android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/i_color"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+        </LinearLayout>
+        
+         <LinearLayout android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/o_color"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="10dp">
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="O"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+    <TextView android:id="@+id/punjabi_onlineRadioText"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="wrap_content"
+        	    android:layout_below="@id/radio_text"
+        	    android:layout_centerHorizontal="true"
+        	    android:layout_marginTop="-1dp"
+                android:text="Punjabi Online Radio Station"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"/>
+    
+    <TextView android:id="@+id/radioBuggi"
+        	    android:layout_height="wrap_content"
+        	    android:layout_width="wrap_content"
+        	    android:layout_below="@id/punjabi_onlineRadioText"
+        	    android:layout_centerHorizontal="true"
+        	    android:layout_marginTop="-45dp"
+                android:text="buggi"
+                android:textColor="@color/buggi_color"
+                android:textSize="100sp"/>
+    
+</RelativeLayout> -->
+
+
+    
+</RelativeLayout>

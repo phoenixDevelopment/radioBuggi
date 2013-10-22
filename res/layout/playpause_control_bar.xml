@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="@color/backProgress">
+    
+         <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/PlayRadio"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button"/>
+         
+        <Button style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/stopRadio"
+            android:layout_toLeftOf="@id/PlayRadio"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button_stop"/>
+        
+        <Chronometer android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeElapsed"
+            android:layout_toLeftOf="@id/stopRadio"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+        
+        <RelativeLayout android:layout_width="fill_parent"
+            android:id="@+id/volumeContainer"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/timeElapsed">
+            <SeekBar
+            android:id="@+id/volumeBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="20"
+            android:progress="0"
+            android:layout_centerInParent="true"
+            android:progressDrawable="@drawable/progressbar"
+            android:thumb="@android:drawable/star_on"
+            android:secondaryProgress="0" />
+            
+        </RelativeLayout>
+     <!--    
+        <LinearLayout
+        android:id="@+id/ads"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PlayRadio"
+        style="@style/Theme.Radiobuggi" 
+        android:background="@android:color/black"
+        android:orientation="horizontal" >
+       
+    </LinearLayout>
+ -->
+</RelativeLayout>

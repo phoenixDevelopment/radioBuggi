@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="r_color">#5080B1</color>
+    <color name="a_color">#F38524</color>
+    <color name="d_color">#B62022</color>
+    <color name="i_color">#F0C226</color>
+    <color name="o_color">#4FB548</color>
+    <color name="buggi_color">#B2008A</color>
+    <color name="pressed_themeradiobuggi">#CC0172FF</color>
+    <color name="backProgress">#0372ff</color>
+</resources>
